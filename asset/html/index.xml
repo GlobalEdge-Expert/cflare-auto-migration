@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Migrate your Cloudflare domain to AWS on CDN/WAF migration tool</title>
+    <link>/</link>
+    <description>Recent content in Migrate your Cloudflare domain to AWS on CDN/WAF migration tool</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick migration</title>
+      <link>/migration/quick/</link>
+      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      <guid>/migration/quick/</guid>
+      <description>&lt;p&gt;You can migrate the entire domain with the Cloudflare API&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Migration history</title>
+      <link>/migration/migration-history/</link>
+      <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
+      <guid>/migration/migration-history/</guid>
+      <description>&lt;p&gt;List of the migration executions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
