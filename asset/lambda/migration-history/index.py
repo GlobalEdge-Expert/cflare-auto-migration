@@ -58,6 +58,12 @@ def lambda_handler(event, context):
             # Extract the scanned data
             data = response.get('Items', [])
             print(data)
+            
+            # If no migration history is found, return a message indicating that no migration has occurred
+            if not data:
+                return {
+                    'statusCode': 204,
+                }
 
             # Sort the data manually by start_time in descending order
             sorted_data = sorted(data, key=lambda x: x['start_time'], reverse=True)
