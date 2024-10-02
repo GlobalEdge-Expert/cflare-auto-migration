@@ -169,7 +169,7 @@ def lambda_handler(event, context):
                     execution_arns.append(execution_arn)
                 else:
                     print(f"Failed to add item to DynamoDB for {record['name']}")
-            break
+            #break
 
         if execution_arns:
             return {
