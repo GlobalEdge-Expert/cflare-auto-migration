@@ -166,10 +166,21 @@
         
         try {
             const response = await fetch(apiUrl);
+            
+            
+            if (response.status == 204) {
+                document.getElementById('response-message').textContent = 'No migration history found. No migrations have been performed yet.';
+                return;
+            }
+
             const data = await response.json();
 
             
             if (response.status !== 200) {
+
+
+                const data = await response.json();
+                
                 const errorMessage = data.message || 'An error occurred';
                 const errorDetail = data.error || 'No error details available';
 
